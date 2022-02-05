@@ -82,7 +82,7 @@ public:
       ++fail_count;
       cerr << "Unknown exception caught" << endl;
     }
-  }
+}
 
   ~TestRunner() {
     if (fail_count > 0) {
